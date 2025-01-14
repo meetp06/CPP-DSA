@@ -1,3 +1,7 @@
+//
+// Created by Meet Patel on 1/13/25.
+//
+
 #include <iostream>
 using namespace std;
 
@@ -20,14 +24,14 @@ int main()
                 {
                     if (n == a + b + c + d)
                     {
-                       counts++;
+                        counts++;
                         found = true;
                     }
                 }
             }
         }
     }
-cout<<counts;
+    cout<<counts;
     if (!found)
     {
         cout << "No solution found for n = " << n << endl;
