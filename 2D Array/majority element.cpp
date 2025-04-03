@@ -1,12 +1,14 @@
+//
+// Created by Meet Patel on 4/2/25.
+//
 #include <iostream>
 using namespace std;
 
-// Time Complexity is nlogn
 int main()
 {
-    int a[] = {2,2,4};
+    int a[] = {3, 3, 2, 3, 1, 3, 2, 2, 1, 3, 3};
     sort(begin(a), end(a));
-    int temp = 1, s = a[0], extra = 0, beforS = 0, total = 11 / 2;
+    int temp = 1, s = a[0], extra = 0, beforS = 0;
 
     for (int i = 0; i < 11; i++)
     {
@@ -21,10 +23,5 @@ int main()
             s++;
         }
     }
-    if (total < extra)
-        cout << beforS << " is:" << extra;
-    else
-        cout << "No one win";
+    cout << beforS << " is:" << extra;
 }
-
-// I solve this question on leetcode with n time complexity
