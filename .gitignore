@@ -10,3 +10,5 @@ cmake-build-debug/
 Cat_eye
 main
 main.cpp
+.clang-format
+a.out
