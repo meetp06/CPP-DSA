@@ -1,15 +1,14 @@
-# Ignore the entire .idea directory
-.idea/
-main.dSYM
-
-# Optionally ignore specific files within .idea/
-CMakeLists.txt
-cmake-build-debug/
-
-.DS_Store
-Cat_eye
-main
-main.cpp
-.clang-format
-a.out
+# Build artifacts
+*.out
+*.o
 *.exe
+*.dSYM/
+
+# IDE
+.idea/
+.vscode/
+cmake-build-debug/
+CMakeLists.txt
+
+# OS
+.DS_Store
